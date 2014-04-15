@@ -1,0 +1,9 @@
+
+@import 'sencha-touch/base';
+@import 'sencha-touch/base/all';
+
+
+@function px2rem($pixel){
+	//base on default font size is 14px
+  @return round($pixel / 14px  * 100) / 100 * 1rem ;
+}
